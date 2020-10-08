@@ -24,7 +24,7 @@ env:
     - base_rmq_ref=master
 
 elixir:
-  - '1.9'
+  - '1.10.4'
 otp_release:
   - '21.3'
   - '22.2'
@@ -37,7 +37,7 @@ jobs:
     group: edge
     arch: arm64-graviton2
     virt: vm
-    elixir: '1.9'
+    elixir: '1.10.4'
     otp_release: '22.3'
 install:
   # This project being an Erlang one (we just set language to Elixir
